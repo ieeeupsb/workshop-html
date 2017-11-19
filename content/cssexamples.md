@@ -1,3 +1,3 @@
 # Examples & Exercises
 
-[Main Menu](../)
+[Main Menu](../README.md)

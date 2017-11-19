@@ -1,3 +1,3 @@
 # My First Web Page!
 
-[Main Menu](../)
+[Main Menu](../README.md)

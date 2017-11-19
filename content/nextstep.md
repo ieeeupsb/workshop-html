@@ -1,3 +1,3 @@
 # The Next Step!
 
-[Main Menu](../)
+[Main Menu](../README.md)
