@@ -6,7 +6,7 @@
 
 *And what is Markup?*  
 A **markup language** is a way of annotating a document - this way, the HTML code tells the software (browser) to preform certain actions (make the text smaller, change its color, add a link, etc.) but those instructions are omitted from what the user sees.  
-In fact, if you want to see the HTML behind a page like [**FEUP**](http://fe.up.pt)'s, open the page, right-click a blank space, and select `View Source` (on most browsers, you could also use `Ctrl + U`). You will see a lot of structured text - this is the text that is interpreted by the browser to turn into the Web Page that you usually see.
+In fact, if you want to see the HTML behind a page like this one you're reading right now, right-click a blank space on the page, and select `View Source` (on most browsers, you could also use `Ctrl + U`). You will see a lot of structured text - this text is interpreted by your browser, and turns into the Web Page that you usually see.
 
 ## What are the required tools?
 ### Text editor
@@ -25,7 +25,17 @@ We'll be using the Web Hosting that FEUP has for every member of the community -
 If you have never edited your page, you should see a **Welcome** page, saying that the owner hasn't created any content. We'll show you how to change that...
 
 ### Editing at FEUP
+When you're using a computer at FEUP (like you'll be doing during this workshop), open the **File Explorer > This PC** and, under **Network Locations**, you should see a network drive with your **username** (if you don't find it, simply try typing `z:` into the adress bar and hitting `Enter`). Inside this network driver, there's a folder called **public_html**, and that's where your Web Page's files are located.
+
+So far, you only find the **index.html** file, the default page that is shown when somebody opens [http://fe.up.pt/~yourusername](http://fe.up.pt/~yourusername). That's the file we'll be creating from scratch, so just change this one's name to **old.html**.  
+After renaming the file, try accessing your page again. You should see an error message.
+
+Now open your text editor (Notepad++ or Kate), and save an empty document in this folder as **index.html**.  
+The error message should disappear.
 
 ### Editing at home
+When you're at home, you could use an FTP program (like [FileZilla](https://filezilla-project.org/)) to access this folder remotely. Simply download this program, install it, and use your credentials to log into the server `homes.fe.up.pt`, port `21`.
+
+For more information, go to https://homes.fe.up.pt/
 
 [Main Menu](../README.md)
