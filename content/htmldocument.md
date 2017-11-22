@@ -42,8 +42,15 @@ Sometimes your page looks correct even if you forget the end tag:
 ```
 But we should't rely on this. **Always place the end tag to avoid unexpected results.**
 
-### Nested Elements
+The example above only works because the **``p``** element is closed when another one begins, but this doesn't happen with other types of elements.  
+As you might have noticed, you can have certain elements inside others - **Nested Elements**. All HTML documents have nested elements (there's a big **``html``** element that has many other elements inside it, and so on), so keep an eye out for them.  
 
 ## Attributes
+An important part of an element is its **attributes**:
+```XML
+<element attributeA="123" attributeB="10%">This is an example...</element>
+```
+Attributes provide **aditional information** about a certain element.  
+They are always specified in the **start tag**, and they usually come in name/value pairs, like **``name="value"``**.
 
 [Main Menu](../README.md)
