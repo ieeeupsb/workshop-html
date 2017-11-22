@@ -50,7 +50,16 @@ Browsers will add white space (margins) before and after paragraphs.
   paragraph!</p>
 ```
 > Does this example create the expected result? **Test it!**
+
 As you might have seen, the browser removes extra spaces and line breaks. To add new lines without starting a new paragraph, you can use the **line break**, and you have to insert a **``<br>``** element (hitting ``Enter`` isn't enough).
+
+```XML
+<p>This is a paragraph!</p>
+<p>This<br>is<br>a<br>paragraph<br>
+  with<br>
+  multiple<br>
+  lines!</p>
+```
 
 ## Using your browser's tools
 If you want to see the HTML Source Code of a certain page, you can right-click and **``View Source (Ctrl+U)``**.  
