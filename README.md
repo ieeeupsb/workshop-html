@@ -30,8 +30,7 @@ Let's get started!
    * [Introducing **CSS**](./content/stylish.md#introducing-css)
 
 ## Using CSS
-1. [Examples & Exercises](./content/cssexamples.md)
-2. [**My "final" Web Page!**](./content/finalwebpage.md)
+1. [**My "final" Web Page!**](./content/finalwebpage.md)
 _________________
 ### Wrapping up
 Now that we're reaching the end of our workshop, we hope that you have learned the basics of HTML & CSS.  
