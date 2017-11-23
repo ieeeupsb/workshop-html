@@ -51,7 +51,7 @@ Images improve the look and design of page. In your page it will be useful, for 
 It is really easy to display an image. The syntax is: **`<img src="url">`**. If that image is at the same folder as your HTML file and, for example, the image name is *myImage.jpeg* the call would be:
 
 ```html
-<img src="myImage.jpg alt="myImage">
+<img src="myImage.jpg" alt="myImage">
 ```
 
 ### The *alt* Attribute
@@ -63,11 +63,11 @@ The alt attribute provides an alternative text for when the image is not avaible
 This can be done in two ways:
 1. Specifying with and *Width* and *Height*
 ```html
-<img src="myImage.jpg alt="myImage" width="500" height="600">
+<img src="myImage.jpg" alt="myImage" width="500" height="600">
 ```
 2. Using *Style*
 ```html
-<img src="myImage.jpg alt="myImage" style="width:500px;height:600px;">
+<img src="myImage.jpg" alt="myImage" style="width:500px;height:600px;">
 ```
 
 **NOTE:** Beware when using *Style*. You cannot further modify your image in a css file! Also avoid hard coding pixels! Use dp (densiy pixels) instead!
