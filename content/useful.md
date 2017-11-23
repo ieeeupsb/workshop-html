@@ -42,6 +42,14 @@ You can next links inside other elements! For example you want an image to be a 
 ```
 ## Images
 
+Images improve the look and design of page. In your page it will be useful, for example, to display your profile page! The image tag is **`<img>`**.
+
+### Syntax
+
+It is really easy to display an image. The syntax is: **`<img src="url">`**. If that image is at the same folder as your HTML file and, for example, the image name is *myImage.jpeg* the call would be:
+```html
+<img src="myImage.jpg"
+```
 ## Lists
 
 
