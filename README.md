@@ -42,4 +42,4 @@ Don't believe us? We will give you some **search topics** for you to get started
 Thank you for attending our workshop!  
 If you have any suggestions, if you find any mistakes, or if you want to ask some questions, feel free to send us an e-mail:  
 **Carlos Novo** - carlosnovo@ieee.org  
-**Vitor Minhoto** - 
+**Vitor Minhoto** - vitor.v.minhoto@gmail.com
