@@ -139,6 +139,17 @@ Let's update our structure...
   </footer>
 ```
 
+Now that we have the basic structure, we should start adding content and style.  
+To do that, we'll create a **CSS** file, and put it on the same folder as the **index.html**. Save an empty file as **``style.css``**. This is the content we'll add:
 
+```CSS
+body {
+  font-family: sans-serif;
+}
+```
+And we'll add this to our **``<head>``**:
+```XML
+<link rel="stylesheet" href="style.css">
+```
 
 [Main Menu](../README.md)
