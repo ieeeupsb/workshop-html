@@ -98,9 +98,6 @@ Let's update our structure...
         <a href="#education">Education</a>
       </li>
       <li>
-        <a href="#education">Education</a>
-      </li>
-      <li>
         <a href="#contact">Contact Me</a>
       </li>
     </ul>
