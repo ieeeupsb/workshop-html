@@ -47,9 +47,22 @@ Images improve the look and design of page. In your page it will be useful, for 
 ### Syntax
 
 It is really easy to display an image. The syntax is: **`<img src="url">`**. If that image is at the same folder as your HTML file and, for example, the image name is *myImage.jpeg* the call would be:
+
 ```html
-<img src="myImage.jpg"
+<img src="myImage.jpg alt="myImage">
 ```
+
+### The *alt* Attribute
+
+The alt attribute provides an alternative text for when the image is not avaible, for example if the user has bad connection or the **src** is broken. It is mandatory and it should describe the image!
+
+### Image Size - Width and Height
+
+This can be done in two ways:
+1. Specifying with and *width* and *Height*
+2. Using *Style*
+
+
 ## Lists
 
 
