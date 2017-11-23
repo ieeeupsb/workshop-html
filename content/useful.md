@@ -59,8 +59,10 @@ The alt attribute provides an alternative text for when the image is not avaible
 ### Image Size - Width and Height
 
 This can be done in two ways:
-1. Specifying with and *width* and *Height*
+1. Specifying with and *Width* and *Height*
 2. Using *Style*
+
+
 
 
 ## Lists
