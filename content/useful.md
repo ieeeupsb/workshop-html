@@ -60,9 +60,16 @@ The alt attribute provides an alternative text for when the image is not avaible
 
 This can be done in two ways:
 1. Specifying with and *Width* and *Height*
+```html
+<img src="myImage.jpg alt="myImage" width="500" height="600">
+```
 2. Using *Style*
 
+Width and Height example:
 
+```html
+<img src="myImage.jpg alt="myImage" width="500" height="600">
+```
 
 
 ## Lists
