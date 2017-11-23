@@ -12,9 +12,9 @@ In fact, if you want to see the HTML behind a page like this one you're reading 
 ### Text editor
 Any text editor will be enough to get started with HTML (*yes, even the simple `notepad`*). But, for the sake of your sanity, we recommend you use a text editor with more extras - like code highlighting or auto-complete.
 
-A few examples are: [**Notepad++**](https://notepad-plus-plus.org/download/), [Visual Studio Code](https://code.visualstudio.com/), [Brackets](http://brackets.io/), [Atom](http://atom.io/),...  
+A few examples are: [Notepad++](https://notepad-plus-plus.org/download/), [Visual Studio Code](https://code.visualstudio.com/), [Brackets](http://brackets.io/), [Atom](http://atom.io/),...  
 
-**During the workshop,** we'll be using **Notepad++** (for Windows) or **Kate** (for Ubuntu), as they are already installed in every computer in FEUP. 
+Install one that seems good for you. You can always install another one later if you don't like your first choice.
 
 ### Browser
 Once again, every browser is capable of interpreting HTML. That's their job after all.  
@@ -24,18 +24,23 @@ We recommend you use **Chrome** or **Firefox**, as they come equipped with tools
 We'll be using the Web Hosting that FEUP has for every member of the community - you can check out yours at [http://fe.up.pt/~login](http://fe.up.pt/~login) (where `login` should be replaced with your username, usually `up201xxxxxx`).  
 If you have never edited your page, you should see a **Welcome** page, saying that the owner hasn't created any content. We'll show you how to change that...
 
-### Editing at FEUP
-When you're using a computer at FEUP (like you'll be doing during this workshop), open the **File Explorer > This PC** and, under **Network Locations**, you should see a network drive with your **username** (if you don't find it, simply try typing `z:` into the adress bar and hitting `Enter`). Inside this network driver, there's a folder called **public_html**, and that's where your Web Page's files are located.
+### Editing at FEUP's computers
+When you're using a computer at FEUP, open the **File Explorer > This PC** and, under **Network Locations**, you should see a network drive with your **username** (if you don't find it, simply try typing `z:` into the adress bar and hitting `Enter`). Inside this network driver, there's a folder named **public_html**, and that's where your Web Page's files are located.
 
-So far, you only find the **index.html** file, the default page that is shown when somebody opens [http://fe.up.pt/~yourusername](http://fe.up.pt/~yourusername). That's the file we'll be creating from scratch, so just change this one's name to **old.html**.  
-After renaming the file, try accessing your page again. You should see an error message.
-
-Now open your text editor (Notepad++ or Kate), and save an empty document in this folder as **index.html**.  
-The error message should disappear.
-
-### Editing at home
-When you're at home, you could use an FTP program (like [FileZilla](https://filezilla-project.org/)) to access this folder remotely. Simply download this program, install it, and use your credentials to log into the server `homes.fe.up.pt`, port `21`.
+### Editing at home *(or during this workshop)*
+When you're at home, you could use an FTP program (like [FileZilla](https://filezilla-project.org/)) to access your files folder remotely. Simply download this program, install it, and use your credentials to log into the server `homes.fe.up.pt`, port `21`.
 
 For more information, go to https://homes.fe.up.pt/
+
+Next, you should find, among others, a folder named **public_html** - that's where your Web Page's files are.  
+So far, you only find the **index.html** file, the default page that is shown when somebody opens [http://fe.up.pt/~yourusername](http://fe.up.pt/~yourusername) (you can test this by going to [http://fe.up.pt/~yourusername/index.html](http://fe.up.pt/~yourusername/index.html) - you'll notice that it is the exact same page).  
+
+We'll be creating **index.html** from scratch, so just change this one's name to **old.html**.  
+After renaming the file, try accessing your page again. You should see an error message.
+
+Now open your text editor, and save an empty document (anywhere you'd like) with the name **index.html**.  
+Drag this file to the **public_html** folder in Filezilla, refresh your browser, and the error message should disappear.
+
+**If you need any help, call a monitor!**
 
 [Main Menu](../README.md)
