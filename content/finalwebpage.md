@@ -79,7 +79,65 @@ An **``id``** specifies a unique name for an element. You can use this to scroll
 <p class="city portugal" id="porto">Porto</p>
 <p class="city spain">Madrid</p>
 ```
+Links to specific elements use an **#** before the element id, like this:
+```XML
+<a href="#elementID">Go to a specific element</a>
+```
 
+Let's update our structure...
+```XML
+  <nav>
+    <ul>
+      <li>
+        <a href="#about">About Me</a>
+      </li>
+      <li>
+        <a href="#experience">Experience</a>
+      </li>
+      <li>
+        <a href="#education">Education</a>
+      </li>
+      <li>
+        <a href="#education">Education</a>
+      </li>
+      <li>
+        <a href="#contact">Contact Me</a>
+      </li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <h1 class="sectionTitle">About Me</h1>
+    <span>
+
+    </span>
+  </section>
+
+  <section id="experience">
+    <h1 class="sectionTitle">Experience</h1>
+    <span>
+
+    </span>
+  </section>
+
+  <section id="education">
+    <h1 class="sectionTitle">Education</h1>
+    <span>
+
+    </span>
+  </section>
+
+  <section id="contact">
+    <h1 class="sectionTitle">Contact Me</h1>
+    <span>
+
+    </span>
+  </section>
+
+  <footer>
+
+  </footer>
+```
 
 
 
